@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CropQuest</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='myhome.css')}}">
+    
+  </head>
+  <body>
+    <header>
+      <h1 class="Logo"  >CropQuest</h1>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#content">Home</a></li>
+          <li><a href="#blog">Blogs</a></li>
+          <li><a href="#About_us">About Us</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#Con_tact"><button>Contact</button></a>
+    </header>
+    <main>
+      <section id="content">
+        <aside>
+          <img height="400px" src="{{url_for('static',filename='farm1.jpg')}}"></aside>
+         </aside>
+      <h1>CropQuest: Your Guide to Successful Farming</h1>
+      
+      <p style="color: rgb(248, 245, 245);">CropQuest Welcomes you on our website, Hope you are earning well from your farm 
+        but we are here for you to provide some suggetions about your crop cultivation 
+      We recommends you to which crop you should grow in your farm for better yields. Its 
+      very easy to predict which crop you should grow on the basis of your soil nutrients 
+      just you need to know your soil nutrients for this you can test your soil in lab.</p>
+      <br>
+      <h3 style="color: rgb(246, 242, 242);">Let's Start New Journey With CropQuest</h3>
+      <br>
+    
+     <form action="/Predict">
+      <input type="submit" id="Predict" name="Predict" action="/Predict" value="Predict">
+     </form>
+     
+    </section>
+  </main>
+     <hr>
+     <h2 id="choose">Why Choose Us?</h2>
+     <section id="About_us">
+      
+      
+      <div class="card">
+        <img src="{{url_for('static',filename='recomcrop.jpeg')}}">
+        <div class="card-content">
+          <h3 > Personalized Recommendation</h3>
+          <p>Tailored recommendations based on your farm's data</p>
+
+        </div>
+
+      </div>
+      <div class="card">
+        <img src="{{url_for('static',filename='yeild.jpeg')}}">
+        <div class="card-content">
+          <h3> Optimized Yield</h3>
+          <p>Maximize your crop yield with our suggestions</p>
+          
+        </div>
+
+      </div>
+      <div class="card">
+        <img src="{{url_for('static',filename='location.jpg')}}">
+        <div class="card-content">
+          <h3>Site Selection</h3>
+          <p>Choose the right location based on soil,climate,ph etc</p>
+          
+        </div>
+
+      </div>
+     </section>
+     <hr>
+     <h3 class="blog_g">Blogs</h3>
+     <section class="blog_1" id="blog">
+        <div class="blog-heading">
+          
+          
+        </div>
+        <div class="blog-container">
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="{{url_for('static',filename='blog2.jpg')}}" alt="blog">
+            </div>
+            <div class="blog-text">
+              <span>Guide to Crop Yield Prediction methods</span>
+              <a href="#" class="blog-title">How climate change challenges are fueling a revolution in harvest predictability</a>
+              <p>Uncover the importance of accuracy in yield predictability and how a comprehensive yield intelligence bundle can complement humans and algorithms.
+                Predicting crop yields in agriculture is a formidable challenge, determined by complexities of soil health, weather conditions, pest and disease, and management practices.
+              </p>
+              <a href="#" >Read More....</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="blog-container">
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="{{url_for('static',filename='blog1.jpg')}}" alt="blog">
+            </div>
+            <div class="blog-text">
+              <span>Crop yield prediction with remote sensing data
+                </span>
+              <a href="#" class="blog-title">Crop yield prediction with remote sensing data in Precision Agriculture
+                Crop yield prediction in Agriculture
+                </a>
+              <p>For crop yield prediction, we need to understand how much sunlight plants receive and how much water they need. Plant growth depends on these two factors, but many other factors affect plant growth such as temperature, humidity, and soil type.
+
+              </p>
+              <a href="#" >Read More....</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="blog-container">
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="{{url_for('static',filename='blog3.jpg')}}" alt="blog">
+            </div>
+            <div class="blog-text">
+              <span>Fertilizer Management to Offset Rising Costs </span>
+              <a href="#" class="blog-title">With fertilizer prices reaching record-setting levels and no price relief in sight, it’s time for farmers to dial in the fourth “R” of their nitrogen management program - placement.</a>
+              <p>With fertilizer prices this high, farmers must make the most out of whatever fertilizer they can afford to apply. A placement strategy, especially for nitrogen, is crucial to maximizing nitrogen use efficiency in fertilizer management. According to global estimates, more than half of nitrogen applied to crops is lost either by leaching through the soil or into the atmosphere
+              </p>
+              <a href="#" >Read More....</a>
+            </div>
+          </div>
+
+        </div>
+     </section>
+     <section class="Contant" id="Con_tact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-wrapper">
+          <div class="contact-form">
+            <h3>Send us a Message</h3>
+            <form id="contactt">
+              <div class="form-group">
+                <input type="text" name="Name" placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <input type="email" name="Email" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <textarea name="message" placeholder="Your Message"></textarea>
+              </div>
+              <button id="submit" type="submit">Send Message</button>
+            </form>
+          </div>
+          <div class="Contact-info">
+            <h3>Contact Information</h3>
+            <p>+91 9098567684</p>
+            <p>+91 8299826421</p>
+            <p>jainarchi2634@gmail.com</p>
+            <p>shaluyadavns02@gmail.com</p>
+            <p>Noida Institute of Engineering and Technology, Greater Noida(U.P)</p>
+          </div>
+        </div>
+      </div>
+
+     </section>
+  </body>
+</html>
