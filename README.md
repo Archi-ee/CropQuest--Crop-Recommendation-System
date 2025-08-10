@@ -39,9 +39,14 @@ crop-recommendation/
 
 ## 🖼️ Project UI
 
-Here’s how the home page looks:
+### Home Page
+![Home Page](Home%20Page.png)
 
-![Home Page](static/homepage_screenshot.png)
+### Prediction Page
+![Prediction Page](Prediction.png)
+
+### Final Output
+![Final Output](Final%20Output.png)
 
 
 
