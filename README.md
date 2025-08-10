@@ -7,9 +7,8 @@ This project predicts the most suitable crop for cultivation based on soil and c
 - Python
 - Pandas, NumPy
 - Scikit-learn
-- Matplotlib / Seaborn
-- Flask / Streamlit (if applicable)
-- Dataset: [Add dataset source link]
+- Matplotlib
+- Flask
 
 ## 📂 Project Structure
 
@@ -29,3 +28,10 @@ crop-recommendation/
 ├── my crop_model/ # Model folder (space in name — not recommended)
 ├── my cropmodel/ # Another model folder (space in name — not recommended)
 ├── Pickle_RL_Model.pkl # Saved trained model file (Pickle format)
+
+
+
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/crop-recommendation.git
