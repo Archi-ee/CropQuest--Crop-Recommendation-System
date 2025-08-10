@@ -35,3 +35,13 @@ crop-recommendation/
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/crop-recommendation.git
+
+
+## 🖼️ Project UI
+
+Here’s how the home page looks:
+
+![Home Page](static/homepage_screenshot.png)
+
+
+
